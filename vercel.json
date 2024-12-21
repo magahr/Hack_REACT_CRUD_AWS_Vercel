@@ -8,11 +8,11 @@
   ],
   "routes": [
     {
-      "src": "/api/Form",
+      "src": "/components/Form",
       "dest": "https://18.222.0.186:5000/Form"
     },
     {
-      "src": "/api/Userr",
+      "src": "/components/Userr",
       "dest": "https://18.222.0.186:5000/User"
     }
   ]

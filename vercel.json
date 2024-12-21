@@ -8,8 +8,20 @@
   ],
   "routes": [
     {
+      "src": "/components/App2",
+      "dest": "https://18.222.0.186:5000/App2"
+    },
+    {
       "src": "/components/Form",
       "dest": "https://18.222.0.186:5000/Form"
+    },
+    {
+      "src": "/components/FormularioForm",
+      "dest": "https://18.222.0.186:5000/FormularioFormm"
+    },
+    {
+      "src": "/components/Home",
+      "dest": "https://18.222.0.186:5000/Homer"
     },
     {
       "src": "/components/User",

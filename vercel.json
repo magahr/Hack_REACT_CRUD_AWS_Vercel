@@ -2,13 +2,13 @@
   "version": 2,
   "builds": [
     {
-      "src": "components/*",
+      "src": "**/*",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/components/(.*)",
+      "src": "/api/(.*)",
       "dest": "https://18.222.0.186:5000/$1"
     }
   ]

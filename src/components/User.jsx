@@ -69,28 +69,3 @@ export function User() {
   );
 }
 
-/*
-http://18.222.0.186:5000/delete-formulario/4
-
-const response = await axios.delete(`http://18.222.0.186:5000/delete-formulario/?id=${user.id}`);
-
- <button onClick={() =>  handleDelete(user)}>Eliminar</button>
- return (
-    <ul>
-       {/*users.map(user => (
-        <li key={user.id}>{user.name} - {user.email}</li>
-      ))}
-      {usersBack.map(user => (
-        <li key={user.id}>
-            {user.nombre} - {user.email} - {user.edad}
-            <Link to={`/form/${user.id}`}>
-            <button> Editar </button>
-            </Link>
-            <button onClick={() =>  handleDelete(user)}>Eliminar</button>
-        </li>
-      ))}
-    </ul>
-  );
-}
-
-*/

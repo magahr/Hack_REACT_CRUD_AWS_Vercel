@@ -49,12 +49,3 @@ const FormularioForm = ({ formulario, onSubmit }) => {
 };
 
 export default FormularioForm;
-
-/*
-    <h3>Creación de Usuarios</h3>
-    <h3>{ formulario ? 'Actualizar usuario ' : ' Crear usuario'}</h3>
-   <div className="container mt-2 text-center">
-            <h3>Actualización y Consulta de Usuarios</h3>
-            <User/>
-        </div>
-        */

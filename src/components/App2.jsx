@@ -45,18 +45,5 @@ const App2 = () => {
 }
 
 export default App2;
-/*
- <Link className="nav-link text-dark" aria-current="page" to="/">Home</Link>
-{/* <nav className='navbar navbar-expand-lg navbar-light bg-light'>
-<div className='container-fluid'>
-    <Link className='navbar-brank' to = "/home">Inicio</Link>
-    <button className='navbar-toggler' type="button" data-bs-toggle="collapse" data-bs-target="#navba">
-        <span className='"navbar-toggler-icon'></span>
-    </button>
-    <Link className='navbar-brank' to = "/form">Formulario</Link>
-    <button className='navbar-toggler' type="button" data-bs-toggle="collapse" data-bs-target="#navba">
-        <span className='"navbar-toggler-icon'></span>
-    </button>
- </div>
-</nav> }*/
+
 

@@ -12,8 +12,9 @@
       "dest": "https://18.222.0.186:5000/Form"
     },
     {
-      "src": "/components/Userr",
+      "src": "/components/User",
       "dest": "https://18.222.0.186:5000/User"
     }
+  
   ]
 }

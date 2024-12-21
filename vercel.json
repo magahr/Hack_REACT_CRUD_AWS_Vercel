@@ -8,7 +8,7 @@
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
+      "src": "/components/(.*)",
       "dest": "https://18.222.0.186:5000/$1"
     }
   ]

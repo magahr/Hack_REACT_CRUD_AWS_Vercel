@@ -1,6 +1,6 @@
 // esto es de gemini
 import React, { useEffect, useState } from "react";
-import axios from 'axios'
+import { get, del } from 'axios';
 import { Link } from 'react-router-dom';
 
 export function User() {

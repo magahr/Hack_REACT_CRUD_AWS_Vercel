@@ -1,3 +1,59 @@
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import FormularioForm from './FormularioForm';
+import { useParams, useNavigate } from 'react-router-dom';
+
+const Form = () => {
+  const { formularioId } = useParams();
+  const [formulario, setFormulario] = useState(null);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const fetchData = async () => {
+      if (formularioId) {
+        try {
+          const response = await axios.get(`http://18.222.0.186:5000/formularios/${formularioId}`);
+          setFormulario(response.data);
+        } catch (error) {
+          console.error('Error fetching formulario:', error);
+        }
+      }
+    };
+
+    fetchData();
+  }, [formularioId]);
+
+  const handleSubmit = async (values) => {
+    const url = `/formularios/${formularioId || ''}`; // Dynamic URL construction
+    const method = formularioId ? 'patch' : 'post';
+
+    try {
+      const response = await axios[method](url, values);
+      const updateMessage = formularioId ? 'Formulario actualizado' : 'Formulario creado';
+      alert(updateMessage);
+      navigate('/home');
+    } catch (error) {
+      const errorMessage = formularioId ? 'Error actualizando formulario' : 'Error creando formulario';
+      console.error(errorMessage, error);
+    }
+  };
+
+  return (
+    <div>
+      <FormularioForm formulario={formulario} onSubmit={handleSubmit} />
+    </div>
+  );
+};
+
+export default Form;
+
+
+
+
+
+
+
+/*** esto es de gemini tambien  
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import FormularioForm from './FormularioForm';
@@ -39,7 +95,7 @@ const Form = () => {
 
 export default Form;
 
-
+*/
 
 
 /*

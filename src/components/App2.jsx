@@ -36,9 +36,9 @@ const App2 = () => {
             </nav>
 
             <Routes>
-                <Route path='/home' element={<Home />} />                 *// Ruta por defecto, muestra Home
-                <Route path='/form' element={<Form />} />                 *// Ruta para el formulario
-                <Route path='/form/:formularioId' element={<Form/>} />    *// Ruta para el formulario
+                <Route path='/home' element={<Home />} />                 {/* Ruta por defecto, muestra Home*/}
+                <Route path='/form' element={<Form />} />                 {/*  Ruta para el formulario*/}
+                <Route path='/form/:formularioId' element={<Form/>} />    {/*  Ruta para el formulario*/}
             </Routes> 
        </Router>
     )

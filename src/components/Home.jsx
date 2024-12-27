@@ -1,5 +1,8 @@
 import React from 'react'
+import User from './User';
+/*ASI ESTABA AL 26-12-2024
 import { User } from './User';
+*/
 
 const Home = () => {
     return (

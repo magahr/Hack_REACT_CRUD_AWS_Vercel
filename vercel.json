@@ -1,5 +1,16 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+  "version": 2,
+  "builds": [
+    {
+      "src": "**/*",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/components/(.*)",
+      "dest": "https://18.222.0.186:5000/$1"
+    }
   ]
 }
+

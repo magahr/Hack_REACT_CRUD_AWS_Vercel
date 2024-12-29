@@ -95,4 +95,7 @@ git commit -m "26-12-2024 Esta es una prueba para ver vercel"
 git commit -m "26-12-2024 Updating the endpoint"
 git commit -m "28-12-2024 Updating project with envirment value"
 git commit -m "28-12-2024 Delete the .env file from github"
+git commit -m "28-12-2024 Updating versel.json"
+git commit -m "28-12-2024 Eliminar vercel.json del repositorio"
+
 

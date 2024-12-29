@@ -9,7 +9,8 @@ import React, { useEffect, useState } from "react";
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 
-const apiUrl = 'http://18.222.0.186:5000';
+//const apiUrl = 'http://18.222.0.186:5000';
+const apiUrl = process.env.REACT_APP_API_URL;
              
 
 const User = () => {

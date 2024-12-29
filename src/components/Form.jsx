@@ -4,8 +4,9 @@ import axios from 'axios';
 import FormularioForm from './FormularioForm';
 import {useParams, useNavigate} from 'react-router-dom';
 
-//const apiUrl = process.env.REACT_APP_API_URL;
-const apiUrl = 'http://18.222.0.186:5000';
+const apiUrl = process.env.REACT_APP_API_URL;
+//const apiUrl = 'http://18.222.0.186:5000';
+
              
 
 const Form = () => {

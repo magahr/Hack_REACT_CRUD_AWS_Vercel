@@ -100,6 +100,6 @@ git commit -m "28-12-2024 Delete the .env file from github"
 git commit -m "28-12-2024 Updating versel.json"
 git commit -m "28-12-2024 Eliminar vercel.json del repositorio"
 git commit -m "28-12-2024 Agregar vercel.json al .gitignore"
-git commit -m "01/01-2025 Updating endpoint"
+git commit -m "05/01-2025 Updating endpoint"
 
 
